@@ -1,0 +1,15 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "specialty",
+            "fieldType": "Specialty",
+            "fieldValues": "Cardiology,Immunology,Dermatology"
+        }
+    ],
+    "changelogDate": "20160719000929",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "foo",
+    "pagination": "pagination"
+}

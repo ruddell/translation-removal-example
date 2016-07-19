@@ -26,7 +26,7 @@
             <tbody>
                 <tr ng-repeat="foo in vm.foos track by foo.id">
                     <td><a ui-sref="foo-detail({id:foo.id})">{{foo.id}}</a></td>
-                    <td translate="{{'notransApp.Specialty.' + foo.specialty}}">{{foo.specialty}}</td>
+                    <td>{{foo.specialty}}</td>
                     <td class="text-right">
                         <div class="btn-group flex-btn-group-container">
                             <button type="submit"
